@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        .contact, .support {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: #f9f9f9;
+        }
+        .contact a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+        .faq {
+            text-align: left;
+        }
+        .faq p {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>Welcome to My Website</header>
+
+    <div class="container">
+        <h2>About Me</h2>
+        <p>Hello! My name is [Your Name]. Feel free to reach out if you have any questions.</p>
+
+        <div class="contact">
+            <h3>Contact Me</h3>
+            <p>Email: <a href="mailto: aapkaishant@email.com">aapkaishant@email.com</a></p>
+            <p>Phone: +91 9430501191</p>
+        </div>
+
+        <div class="support">
+            <h3>Support & FAQs</h3>
+            <div class="faq">
+                <p>Q: How can I contact you?</p>
+                <p>A: You can email me at <a href="mailto:aapkaishant@email.com">aapkaishant@email.com</a>.</p>
+
+                <p>Q: Do you offer support?</p>
+                <p>A: Yes! You can ask your questions via email or call.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
